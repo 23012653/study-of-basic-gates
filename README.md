@@ -65,27 +65,35 @@ Y= A⊕B
 **PROGRAM**
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
+```
+module Basic (a, b, y1, y2, y3, y4, y5, y6, y7) ;
+input a, b;
+output yl, y2, y3, y4, y5, у6, y7;
+and (yl, a, b) ;
+or (y2, a, b) ;
+not (y3,a) ;
+xor (y4, a, b) ;
+nor (y5, a, b) ;
+nand (y6, a, b) ;
+nor (y7, a, b) ;
+endmodule
+```
 
  ## Developed by: ANUBHARATHI SS
  ## RegisterNumber: 212223040017 
 
- ## CODE 
- ![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/3cbdae3e-10fe-48a9-baae-934a46a623f7)
 
  
 ## Logic symbol & Truthtable
-![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/fc97ec56-7467-41a7-930a-2ddea04294ab)
+![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/974efa64-d99f-4324-9e14-d0c55c36d265)
 
 
 ## RTL realization Output:
+![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/262ca1e9-bcd2-44e1-9b79-446d2d72c764)
 
 ## RTL
-![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/c3f3b2b5-bb6c-4397-af12-b69708acbe25)
-
-## OUTPUT
-![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/395fd67d-bc7c-451d-8fd3-47723e019bdb)
+![image](https://github.com/23012653/study-of-basic-gates/assets/150777517/5b717c00-b041-4ba3-8d9a-9d2d2bcb5d95)
 
 
 ## Result:
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
